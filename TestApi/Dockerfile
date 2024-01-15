@@ -19,6 +19,7 @@ COPY --from=build-env /app/out .
 
 
 
+
 # Uygulamayý çalýþtýr
 # Uygulamanýzýn adý TestApi.dll ise bu kýsmý deðiþtirmeyin, eðer farklýysa doðru adý girin.
 ENTRYPOINT ["dotnet", "TestApi.dll"]
